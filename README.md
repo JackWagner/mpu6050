@@ -1,2 +1,2 @@
-# MPU6050 3-Axis Accelerometer and Gyroscope Sensor Software
+# MPU6050 3-Axis Accelerometer/Gyroscope Sensor Software
 Written by Jack Wagner
