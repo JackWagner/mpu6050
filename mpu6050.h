@@ -91,8 +91,23 @@
 #define FOFP_R_W 0x74
 #define WHO_AM_I 0x75
 
+#include <stdint.h>
+
+//uint16_t GX, GY, GZ, AX, AT, AZ;
+
 void powerSensor(bool on);
+
 void gyroTest();
-unsigned short extracted(unsigned short value, int begin, int end);
+void gyroRead(uint16_t *data);
+void gyroConfig();
+
+void accelTest();
+void accelRead(uint16_t *data);
+void accelConfig();
+
+void calibrate();
+
+void config(short ext_sync_set, short dlpf_cfg);
+
 
 #endif
