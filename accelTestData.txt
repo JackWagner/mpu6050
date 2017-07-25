@@ -2,6 +2,7 @@ Accelerometer self-test executed 1000 times, average result taken for each axis.
 
 
 
+
 X = 3.38437 :  Y = 5.9565 :  Z = 9.721
 X = 10.2885 :  Y = 5.00887 :  Z = 2.72662
 X = 1.444 :  Y = 6.54312 :  Z = 9.04922
